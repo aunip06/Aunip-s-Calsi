@@ -39,7 +39,7 @@ for row in range(row_count):
         elif value in right_symbols:
             button.config(foreground=ink_black,background=rosy_taupe)
         else:
-            button.config(foreground=colour_white,background=silver)
+            button.config(foreground=ink_black,background=silver)
 
         button.grid(row=row+1,column=column)
 frame.pack()
